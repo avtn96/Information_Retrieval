@@ -1,0 +1,4 @@
+beautifulsoup4
+pandas
+pyppeteer==0.2.5
+flask
