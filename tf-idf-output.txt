@@ -1,0 +1,536 @@
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Unzipping corpora/stopwords.zip.
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/asteroid_city
+movi: 0.025210084033613446
+durat: 0.0
+2023: 0.0053475935828877
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/napoleon_2023
+movi: 0.03014318010550113
+durat: 0.0
+2023: 0.00452147701582517
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/saw_x
+movi: 0.030694668820678513
+durat: 0.0
+2023: 0.007269789983844911
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/pain_hustlers
+movi: 0.020664869721473494
+durat: 0.0
+2023: 0.0071877807726864335
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/sisu_2022
+movi: 0.03500897666068223
+durat: 0.0
+2023: 0.005385996409335727
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/guardians_of_the_galaxy_vol_3
+movi: 0.03209700427960057
+durat: 0.0
+2023: 0.004992867332382311
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_hunger_games_the_ballad_of_songbirds_and_snakes
+movi: 0.02759084791386272
+durat: 0.0
+2023: 0.004710632570659489
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/they_cloned_tyrone
+movi: 0.028747433264887063
+durat: 0.0
+2023: 0.008213552361396304
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_marvels
+movi: 0.02763819095477387
+durat: 0.0
+2023: 0.005025125628140704
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/fair_play_2023
+movi: 0.02385008517887564
+durat: 0.0
+2023: 0.00596252129471891
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/perfect_days_2023
+movi: 0.021034180543382998
+durat: 0.0
+2023: 0.007011393514460999
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/wish_2023
+movi: 0.02522935779816514
+durat: 0.0
+2023: 0.0045871559633027525
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/all_of_us_strangers
+movi: 0.03181427343078246
+durat: 0.0
+2023: 0.0034393809114359416
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/blue_beetle
+movi: 0.03682946357085669
+durat: 0.0
+2023: 0.005604483586869495
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/m3gan
+movi: 0.02700617283950617
+durat: 0.0
+2023: 0.006172839506172839
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/aquaman_and_the_lost_kingdom
+movi: 0.028985507246376812
+durat: 0.0
+2023: 0.004262574595055414
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_zone_of_interest
+movi: 0.02459791863765374
+durat: 0.0
+2023: 0.002838221381267739
+1.5: 0.0
+h: 0.003784295175023652
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/guy_ritchies_the_covenant
+movi: 0.03127641589180051
+durat: 0.0
+2023: 0.006762468300929839
+1.5: 0.0
+h: 0.0033812341504649195
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/anyone_but_you_2023
+movi: 0.027049873203719356
+durat: 0.0
+2023: 0.00422654268808115
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/anatomy_of_a_fall
+movi: 0.022401433691756272
+durat: 0.0
+2023: 0.005376344086021506
+1.5: 0.0
+h: 0.0035842293906810036
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/eileen
+movi: 0.024013722126929673
+durat: 0.0
+2023: 0.005145797598627788
+1.5: 0.0
+h: 0.003430531732418525
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/reptile_2023
+movi: 0.01984877126654064
+durat: 0.0
+2023: 0.008506616257088847
+1.5: 0.0
+h: 0.003780718336483932
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/rebel_moon_part_1_a_child_of_fire
+movi: 0.018799710773680405
+durat: 0.0
+2023: 0.0036153289949385392
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/heart_of_stone_2023
+movi: 0.024880382775119617
+durat: 0.0
+2023: 0.009569377990430622
+1.5: 0.0
+h: 0.003827751196172249
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/mission_impossible_dead_reckoning_part_one
+movi: 0.023355869698832205
+durat: 0.0
+2023: 0.007375537799631223
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/indiana_jones_and_the_dial_of_destiny
+movi: 0.026840490797546013
+durat: 0.0
+2023: 0.005368098159509203
+1.5: 0.0
+h: 0.006134969325153374
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/talk_to_me_2023
+movi: 0.032467532467532464
+durat: 0.0
+2023: 0.008348794063079777
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/dungeons_and_dragons_honor_among_thieves
+movi: 0.02486559139784946
+durat: 0.0
+2023: 0.006720430107526882
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_equalizer_3
+movi: 0.027237354085603113
+durat: 0.0
+2023: 0.010116731517509728
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/thanksgiving_2023
+movi: 0.02480752780153978
+durat: 0.0
+2023: 0.005988023952095809
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/gran_turismo_based_on_a_true_story
+movi: 0.02706766917293233
+durat: 0.0
+2023: 0.006015037593984963
+1.5: 0.0
+h: 0.0030075187969924814
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/barbie
+movi: 0.036013400335008376
+durat: 0.0
+2023: 0.005025125628140704
+1.5: 0.0
+h: 0.0033500837520938024
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/wonka
+movi: 0.036028823058446756
+durat: 0.0
+2023: 0.0040032025620496394
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/leave_the_world_behind_2023
+movi: 0.025086505190311418
+durat: 0.0
+2023: 0.005190311418685121
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/past_lives
+movi: 0.03546099290780142
+durat: 0.0
+2023: 0.004432624113475178
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/sound_of_freedom
+movi: 0.025120772946859903
+durat: 0.0
+2023: 0.007729468599033816
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/a_man_called_otto
+movi: 0.023809523809523808
+durat: 0.0
+2023: 0.005747126436781609
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/knock_at_the_cabin
+movi: 0.026720647773279354
+durat: 0.0
+2023: 0.006477732793522267
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/infested_2023
+movi: 0.025763358778625955
+durat: 0.0
+2023: 0.0057251908396946565
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/killers_of_the_flower_moon
+movi: 0.02936630602782071
+durat: 0.0
+2023: 0.0030911901081916537
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_iron_claw_2023
+movi: 0.02973977695167286
+durat: 0.0
+2023: 0.0037174721189591076
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/dream_scenario
+movi: 0.025089605734767026
+durat: 0.0
+2023: 0.005376344086021506
+1.5: 0.0
+h: 0.0035842293906810036
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/tell_them_you_love_me
+movi: 0.01828761429758936
+durat: 0.0
+2023: 0.0016625103906899418
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/joy_ride_2023
+movi: 0.0368
+durat: 0.0
+2023: 0.0104
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/fast_x
+movi: 0.026785714285714284
+durat: 0.0
+2023: 0.006696428571428571
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/old_dads
+movi: 0.026503567787971458
+durat: 0.0
+2023: 0.00815494393476045
+1.5: 0.0
+h: 0.004077471967380225
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_killer_2023
+movi: 0.02917046490428441
+durat: 0.0
+2023: 0.006381039197812215
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_boy_and_the_heron
+movi: 0.021541010770505385
+durat: 0.0
+2023: 0.0024855012427506215
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/transformers_rise_of_the_beasts
+movi: 0.02522935779816514
+durat: 0.0
+2023: 0.006880733944954129
+1.5: 0.0
+h: 0.0030581039755351682
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_family_plan
+movi: 0.022935779816513763
+durat: 0.0
+2023: 0.005504587155963303
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/when_evil_lurks
+movi: 0.024545454545454544
+durat: 0.0
+2023: 0.006363636363636364
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_boys_in_the_boat
+movi: 0.02775290957923008
+durat: 0.0
+2023: 0.0017905102954341987
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_super_mario_bros_movie
+movi: 0.07640949554896143
+durat: 0.0
+2023: 0.0066765578635014835
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/youll_never_find_me
+movi: 0.02247191011235955
+durat: 0.0
+2023: 0.0010214504596527069
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/no_hard_feelings_2023
+movi: 0.03112529928172386
+durat: 0.0
+2023: 0.008778930566640064
+1.5: 0.0
+h: 0.0031923383878691143
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/oppenheimer_2023
+movi: 0.02931323283082077
+durat: 0.0
+2023: 0.009212730318257957
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/suitable_flesh
+movi: 0.023191094619666047
+durat: 0.0
+2023: 0.008348794063079777
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_creator_2023
+movi: 0.03514376996805112
+durat: 0.0
+2023: 0.006389776357827476
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_flash_2023
+movi: 0.0265210608424337
+durat: 0.0
+2023: 0.0070202808112324495
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/five_nights_at_freddys
+movi: 0.0243531202435312
+durat: 0.0
+2023: 0.0045662100456621
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/finestkind
+movi: 0.025547445255474453
+durat: 0.0
+2023: 0.005474452554744526
+1.5: 0.0
+h: 0.0036496350364963502
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/ghosted_2023
+movi: 0.030782029950083195
+durat: 0.0
+2023: 0.0074875207986688855
+1.5: 0.0
+h: 0.0033277870216306157
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/godzilla_minus_one
+movi: 0.030901287553648068
+durat: 0.0
+2023: 0.002575107296137339
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse
+movi: 0.04146730462519936
+durat: 0.0
+2023: 0.007177033492822967
+1.5: 0.0
+h: 0.003189792663476874
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/poor_things
+movi: 0.030803906836964687
+durat: 0.0
+2023: 0.004507888805409466
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/nefarious_2023
+movi: 0.02576808721506442
+durat: 0.0
+2023: 0.009910802775024777
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/the_holdovers
+movi: 0.03236514522821577
+durat: 0.0
+2023: 0.0033195020746887966
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/evil_dead_rise
+movi: 0.028181041844577284
+durat: 0.0
+2023: 0.008539709649871904
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/operation_fortune_ruse_de_guerre
+movi: 0.034045922406967535
+durat: 0.0
+2023: 0.007125890736342043
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/may_december
+movi: 0.020374898125509373
+durat: 0.0
+2023: 0.006519967400162999
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/john_wick_chapter_4
+movi: 0.02342606149341142
+durat: 0.0
+2023: 0.005856515373352855
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/memory_2023
+movi: 0.02455795677799607
+durat: 0.0
+2023: 0.008840864440078585
+1.5: 0.0
+h: 0.003929273084479371
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/saltburn
+movi: 0.039377289377289376
+durat: 0.0
+2023: 0.004578754578754579
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/ferrari_2023
+movi: 0.03355704697986577
+durat: 0.0
+2023: 0.0025167785234899327
+1.5: 0.0
+h: 0.003355704697986577
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/ant_man_and_the_wasp_quantumania
+movi: 0.03176620076238882
+durat: 0.0
+2023: 0.0044472681067344345
+1.5: 0.0
+h: 0.0
+
+TF-IDF Results for URL: https://www.rottentomatoes.com/m/no_one_will_save_you
+movi: 0.024302430243024302
+durat: 0.0
+2023: 0.0063006300630063005
+1.5: 0.0
+h: 0.0072007200720072
