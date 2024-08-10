@@ -1,9 +1,0 @@
-[nltk_data] Downloading package punkt to /root/nltk_data...
-[nltk_data]   Package punkt is already up-to-date!
-[nltk_data] Downloading package stopwords to /root/nltk_data...
-[nltk_data]   Package stopwords is already up-to-date!
-Aggregated TF-IDF for 'movie': 0.01924117728284252
-Aggregated TF-IDF for 'duration': 0
-Aggregated TF-IDF for '2023': 0.003947097333711943
-Aggregated TF-IDF for '1.5': 0.0003071314321727182
-Aggregated TF-IDF for 'h': 0.0003597428038138616
