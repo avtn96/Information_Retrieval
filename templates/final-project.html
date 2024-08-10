@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>פרויקט סיום</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        color: #343a40;
+      }
+
+      .navbar {
+        background-color: #007bff;
+        padding: 10px 20px;
+      }
+
+      .navbar-brand,
+      .nav-link {
+        color: #fff !important;
+      }
+
+      .navbar-brand:hover,
+      .nav-link:hover {
+        color: #ffc107 !important;
+      }
+
+      .container {
+        margin-top: 50px;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        text-align: right;
+      }
+
+      h1 {
+        color: #007bff;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .accordion-item {
+        border-bottom: 1px solid #ddd;
+        padding: 15px;
+        cursor: pointer;
+      }
+
+      .accordion-item h2 {
+        font-size: 1.25rem;
+        margin: 0;
+        color: #007bff;
+      }
+
+      .accordion-item p {
+        display: none;
+        margin-top: 10px;
+      }
+
+      .accordion-item img {
+        display: none;
+        margin-top: 10px;
+      }
+
+      .accordion-item.active p {
+        display: block;
+      }
+
+      .accordion-item.active img {
+        display: block;
+      }
+
+      .accordion-item.active h2 {
+        color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/">חיפוש</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/maayan">מעיין</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ofek">אופק</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/mor">מור</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/rotem">רותם</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/final-project">פרויקט סיום</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>שאלות ותשובות - פרויקט סיום</h1>
+      <div class="accordion">
+        <!-- Question 1 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>
+            שאלה 1: מהו תחום העיסוק המרכזי של האתר? מהו המידע הזמין למשתמשי
+            האתר? ענו בפסקה אחת. צרפו את הקישור לאתר
+          </h2>
+          <p>
+            האתר Rotten Tomatoes מתמקד בביקורת ובדירוג של סרטים, תוכניות
+            טלוויזיה ותכנים קולנועיים נוספים. האתר מספק פלטפורמה למבקרים
+            מקצועיים ולקהל הרחב לשתף את חוות דעתם על תכנים שונים. המידע הזמין
+            באתר כולל דירוגים מצטברים, ביקורות כתובות, ציון "רוטן" או "טרי"
+            המייצג את מידת ההמלצה על הסרט או התוכנית, תיאור העלילה, טריילרים,
+            ושחקנים משתתפים.<br />
+            קישור לגיט:
+            <a
+              href="https://www.rottentomatoes.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >גיט</a
+            >
+          </p>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>
+            שאלה 2: רשמו שלוש שאילתות מעניינות שהייתם רוצים לקבל עליהן תשובה
+            באתר, והאתר אינו עונה עליהן כעת. עבור כל שאילתא כזו, ציינו מהם פרטי
+            המידע הנדרשים לצורך מענה על השאילתא
+          </h2>
+          <p>
+            Movies 2023 with duration > 1.5 h: פרטי מידע נדרשים: שנת יציאה של
+            הסרט (2023), משך זמן הסרט (יותר מ-1.5 שעות), רשימה של הסרטים
+            התואמים. Average of critics of movies released in 2023 compared to
+            TV shows released in 2023: פרטי מידע נדרשים: ממוצע ציוני המבקרים
+            לסרטים שיצאו ב-2023, ממוצע ציוני המבקרים לתוכניות טלוויזיה שיצאו
+            ב-2023, השוואה בין הממוצעים של שתי הקטגוריות. TV shows with release
+            year > 2011: פרטי מידע נדרשים: שנת יציאה של תוכניות הטלוויזיה (מאוחר
+            יותר מ-2011), רשימה של התוכניות התואמות. השאילתות הללו מצריכות ניתוח
+            מתקדם של הנתונים הזמינים באתר, כולל סינון לפי משך זמן, ממוצעים
+            והשוואות, וכן התייחסות לשנים ספציפיות, דבר שהאתר אינו מציע כרגע
+            באופן ישיר או נוח.
+          </p>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>
+            שאלה 3: בנו זחלן המחזיר את התוצאות לשאילתות שהגדרתם. מומלץ (אך לא
+            חובה) לבנות את הזחלן בפייתון. הציגו את קוד הזחלן
+          </h2>
+          <p>
+            ניתן לראות את הקוד לזחלן שלנו בקישור הבא:<br />
+            <a
+              href="https://github.com/avtn96/Information_Retrieval/blob/main/scraper.py"
+              target="_blank"
+              rel="noopener noreferrer"
+              >זחלן</a
+            >
+          </p>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>שאלה 4: רשמו טכנולוגיות שונות מעניינות שהשתמשתם בהם בפרויקט</h2>
+          <p>
+            asyncio: ספריית Python לניהול קורוטינות ואסינכרוניות, שאיפשרה לנו
+            להריץ מספר פעולות במקביל בצורה יעילה יותר, במיוחד כאשר מדובר בביצוע
+            שאילתות רשת. pyppeteer: כלי זה משמש כאוטומציה לדפדפן (מבוסס על
+            Puppeteer ל-Node.js), ומאפשר לנו להפעיל את דפדפן Chrome מתוך Python
+            ולבצע פעולות כגון טעינת עמודים ולקיחת תוכן HTML בצורה תכניתית.
+            BeautifulSoup: ספרייה לעיבוד וניתוח של תוכן HTML/XML, אשר שימשה
+            אותנו לשליפת מידע מתוך מבנה ה-HTML של הדפים שסרקנו. pandas: ספריית
+            Python לניתוח ועיבוד נתונים, שאפשרה לנו לבנות DataFrame מכל המידע
+            שנאסף, לבצע פעולות עיבוד נתונים, ולשמור את הנתונים לקובץ CSV.
+            טכנולוגיות אלו אפשרו לנו לבצע סקריפט סריקה מתקדם, לעבד את הנתונים
+            שנאספו, ולהפיק תובנות מפורטות מהאתר Rotten Tomatoes.
+          </p>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>
+            שאלה 5: כמה זמן רצו השאילתות שלכם?במה זה תלוי? האם לדעתכם ניתן לשפר
+            זמן זה?
+          </h2>
+          <p>
+            השאילתות רצות בערך כשנייה בגלל שהם ממוקדות והאינדקס מוגדר היטב, ריצת
+            האינדקס תלויה בקובץ csv, ככל שהוא גדול יותר כך יידרש זמן לסרוק
+            ולהחזיר את התוצאות המתאימות, בנוסף זה תלוי בתכנון האינדוקס
+            ובשאילתות, כלומר אם השאילתות מכילות תנאים מורכבים(סינונים למינהם) כך
+            ידרש יותר זמן לסינון התוצאות. אנו בטוחים שיש טכנולוגיות מתקדמות יותר
+            שעושות אופטימיזציה לקוד שלנו, שמירה בזכרון מטמון, שימוש במבני נתונים
+            יעילים, חלוקה לתהליכים שיפעלו במקביל, לכן ניתן לשפר זמן זה.
+          </p>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>
+            שאלה 6: בנו inverted index ל- 15 המילים הנפוצות שחזרו (מספיק להתיחס
+            ל -20 הדפים הראשונים שחזרו)
+          </h2>
+          <p>
+            inverted index ל-15 מילים הנפוצות ביותר:<br /><br />
+            1. movi: [2, 3, 7, 8, 9, 13, 15, 18, 19, 22, 23, 24, 26, 27, 28, 29,
+            30, 31, 32, 33]
+            <br />
+            2. critic: [3, 7, 8, 13, 18, 19, 22, 23, 24, 26, 27, 29, 30, 31, 32,
+            33, 34, 35, 38, 41]
+            <br />
+            3. amazonprime: [1, 3, 6, 7, 8, 12, 14, 16, 18, 19, 22, 24, 26, 27,
+            30, 31, 32, 33, 34, 35]
+            <br />
+            4. vudu: [3, 6, 7, 8, 12, 18, 19, 22, 24, 26, 27, 28, 30, 31, 32,
+            33, 34, 35, 36, 37]
+            <br />
+            5. appletv: [1, 3, 6, 7, 8, 12, 14, 18, 19, 22, 24, 26, 27, 28, 30,
+            31, 32, 33, 34, 35]
+            <br />
+            6. season: [0, 10, 11, 12, 16, 20, 25, 36, 39, 46, 55, 59, 60, 67,
+            80, 83, 84, 86, 88, 89]
+            <br />
+            7. tv: [0, 1, 4, 5, 6, 8, 10, 11, 12, 14, 16, 17, 20, 21, 25, 36,
+            37, 39, 40, 45]
+            <br />
+            8. show: [0, 1, 4, 5, 6, 10, 11, 12, 14, 16, 17, 20, 21, 25, 36, 37,
+            39, 40, 45, 46, 47]
+            <br />
+            9. review: [3, 7, 8, 13, 18, 19, 22, 23, 24, 26, 27, 29, 30, 31, 32,
+            33, 34, 35, 38, 41]
+            <br />
+            10. read: [3, 7, 8, 13, 18, 19, 22, 23, 24, 26, 27, 29, 30, 31, 32,
+            33, 34, 35, 38, 41]
+            <br />
+            11. consensu: [3, 7, 8, 13, 18, 19, 22, 23, 24, 26, 27, 29, 30, 31,
+            32, 33, 34, 35, 38, 41]
+            <br />
+            12. netflix: [5, 10, 11, 13, 23, 25, 29, 31, 33, 40, 45, 46, 48, 49,
+            52, 53, 54, 55, 60, 62]
+            <br />
+            13. present: [0, 1, 4, 5, 10, 11, 12, 16, 21, 25, 37, 39, 40, 45,
+            46, 48, 49, 53, 54, 55, 67]
+            <br />
+            14. releas: [2, 3, 7, 8, 13, 18, 19, 22, 23, 24, 26, 27, 28, 29, 30,
+            31, 32, 33, 34, 35]
+            <br />
+            15. trailer: [0, 1, 2, 3, 7, 11, 13, 15, 16, 17, 20, 23, 25, 26, 29,
+            31, 33, 38, 39, 42]
+          </p>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>שאלה 7: בחרו את אחת השאילתות, וחשבו tfIdf של המושגים בשאילתא</h2>
+          <p>
+            השאילתה שבחרנו: "movies 2023 with duration > 1.5 h":<br /><br />
+
+            <strong>הסבר תהליך חישוב TF-IDF:</strong><br />
+            <strong>TF - (Term Frequency)</strong><br />
+            מדד המתאר את מספר הפעמים שהמונח מופיע במסמך מסוים יחסית לאורך המסמך.
+            זה נותן הערכה לגבי חשיבות המונח בתוך המסמך עצמו.<br /><br />
+
+            <strong>IDF - (Inverse Document Frequency)</strong><br />
+            מדד המתאר כמה המונח נדיר באוסף המסמכים כולו. מונחים המופיעים בהרבה
+            מסמכים יקבלו ערך IDF נמוך, בעוד שמונחים נדירים יקבלו ערך גבוה
+            יותר.<br /><br />
+
+            <strong>TF-IDF</strong><br />
+            זהו מכפלת ה-TF וה-IDF. השילוב של שני הערכים מאפשר להעריך את החשיבות
+            היחסית של מונח מסוים במסמך ספציפי בהשוואה לכלל המסמכים. זה שימושי
+            במיוחד בניתוח טקסטים כדי לזהות מונחים שמשמעותיים לתוכן הספציפי.<br /><br />
+
+            <strong>פירוט שלבי החישוב:</strong><br />
+            <strong>1. פונקציה : fetch_and_process_text(url)</strong><br />
+            תיאור:<br />
+            פונקציה זו אחראית לטעון ולעבד את הטקסט מ-URL נתון. היא מבצעת בקשה
+            לכתובת האינטרנט, מחלצת את הטקסט מהדף עם BeautifulSoup, ואז מבצעת
+            תיקון והסרת מילים שאינן רלוונטיות (כמו stop words).<br /><br />
+
+            שלבים:<br />
+            - בקשה ל-URL עם ספריית requests.<br />
+            - שימוש ב-BeautifulSoup לחלץ טקסט נקי מה-HTML.<br />
+            - תיקון הטקסט: חיתוך למילים, הורדת תווים שאינם אלפביתיים והסרת מילות
+            עצירה.<br />
+            - החזרת רשימת המילים שעברו עיבוד.<br /><br />
+
+            <strong>2. פונקציה: process_multiple_urls(urls, words)</strong
+            ><br />
+            תיאור:<br />
+            פונקציה זו מעבדת רשימת URLs ומחשבת את ה-TF-IDF לכל מילה בכל אחד
+            מה-URLs. היא משתמשת בפונקציה fetch_and_process_text לקבלת המילים מכל
+            URL ומחשבת את תדירות המילה בכל מסמך ובמאגר המסמכים.<br /><br />
+
+            שלבים:<br />
+            - ריצה על כל URL וקבלת רשימת מילים מעובדות.<br />
+            - חישוב תדירות הופעת כל מילה בכל מסמך (TF).<br />
+            - חישוב מספר המסמכים שבהם המילה מופיעה לפחות פעם אחת.<br />
+            - חישוב ה-IDF עבור כל מילה.<br />
+            - חישוב ה-TF-IDF על ידי כפל ה-TF ב-IDF.<br /><br />
+
+            <strong>3. הדפסות בתוך לולאה</strong><br />
+            תיאור:<br />
+            בכל איטרציה של עיבוד URL, הקוד מדפיס את ה-TF-IDF לכל מילה.<br /><br />
+
+            שלבים:<br />
+            - חישוב והדפסת ה-TF-IDF לכל מילה.<br />
+            <br />
+            TF-IDF for 'movie': 0.01924117728284252
+            <br />
+            TF-IDF for 'duration': 0
+            <br />
+            TF-IDF for '2023': 0.003947097333711943
+            <br />
+            TF-IDF for '1.5': 0.0003071314321727182
+            <br />
+            TF-IDF for 'h': 0.0003597428038138616
+          </p>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>שאלה 8: האם בדפים שהוחזרו קיימים hubs? Authorities? נמקו</h2>
+          <p>
+            בדפים שהוחזרו קיימים Authorities וגם hubs משום שהדפים מקושרים להרבה
+            דפים חשובים אחרים וגם את הדפים מקשרים הרבה דפים אחרים חשובים ולכן זה
+            גם Authorities וגם hubs. <br />
+            דוגמה: הדף -https://www.rottentomatoes.com/tv/tracker_2023/s01 מוביל
+            להרבה דפים אחרים בתוך rottentomatoes ומצד שני יש כמה דפים שמזכירים
+            את הקישור לדף כמו-
+            https://www.rottentomatoes.com/browse/tv_series_browse/sort:popular
+          </p>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>
+            שאלה 9: בחרו 10 דפים שהזחלן החזיר, ואשר יש ביניהם קישורים .חשבו
+            pageRank לכל דף, מומלץ להעזר בסקריפט מוכן. הציגו את החישובים ואת
+            הדירוג הסופי
+          </h2>
+          <p>שלבי החישוב של PageRank:
+            יצירת מטריצת סמיכויות (Adjacency Matrix):
+            הקוד מייצר מטריצה שמייצגת את הקישורים בין הדפים. כל תא במטריצה מציין אם יש קישור מדף מסוים לדף אחר.
+            <br />
+            חישוב PageRank:
+            משתמשים במטריצת סמיכות מנורמלת לחישוב ערכי PageRank לכל דף. 
+            כל דף מקבל ערך שמייצג את מידת החשיבות שלו כאשר ערך זה מחושב לפי הנוסחאות שלמדנו בכיתה, כאשר דפים עם יותר קישורים פנימיים מקבלים ערכים גבוהים יותר.
+            האלגוריתם חוזר על עצמו מספר פעמים (עד למקסימום איטרציות שאצלנו מוגדר כ100) עד שהערכים מתכנסים לשינוי קטן מאוד (מוגדר על ידי to=1e-6l).
+            <br />
+            הצגת תוצאות PageRank:
+            התוצאות מודפסות על המסך כך שכל URL מוצג עם ערך ה-PageRank שלו.
+            <br />
+            הדמיית הקשרים בין הדפים:
+            הקוד מצייר גרף שמציג את הקשרים בין הדפים, כאשר גודל הצמתים משקף את ערך ה-PageRank של כל דף.</p>
+          <img src="{{ url_for('static', filename='images/graph.png') }}" alt="Graph Image" style="width: 40rem; height: 40rem;">
+        </div>
+
+        <!-- Question 10 -->
+        <div class="accordion-item" onclick="toggleAccordion(this)">
+          <h2>
+            שאלה 10: הראו לשני משתמשים שונים את הדירוג מהסעיף הקודם, בקשו מהם
+            לסמן relevance feedback
+          </h2>
+          <p>בפרויקט נעשה שימוש בכלים כמו Python, Flask, ו-Bootstrap.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      function toggleAccordion(element) {
+        // Check if the clicked item is already active
+        const isActive = element.classList.contains("active");
+
+        // Collapse all items
+        const items = document.querySelectorAll(".accordion-item");
+        items.forEach((item) => {
+          item.classList.remove("active");
+        });
+
+        // If the clicked item wasn't active, activate it
+        if (!isActive) {
+          element.classList.add("active");
+        }
+      }
+    </script>
+  </body>
+</html>
